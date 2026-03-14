@@ -41,7 +41,7 @@ def save_raw_json(payload: dict[str, Any], prefix: str = "weather") -> Path:
 
 
 def extract_weather(config: dict[str, Any]) -> dict[str, Any]:
-    api_key = config["api"]["weather_api_key"].strip()
+    api_key = config["api"]["openweather_api_key"].strip()
     base_url = config["api"]["weather_base_url"].strip()
     units = config["api"].get("units", "metric")
 
