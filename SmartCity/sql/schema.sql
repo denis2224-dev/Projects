@@ -33,8 +33,6 @@ CREATE TABLE IF NOT EXISTS environment_data (
     air_quality_timestamp TIMESTAMP,
     weather_source TEXT,
     air_quality_source TEXT,
-    weather_raw_file TEXT,
-    air_quality_raw_file TEXT,
     pipeline_run_at TIMESTAMP,
 
     hour DOUBLE PRECISION,
