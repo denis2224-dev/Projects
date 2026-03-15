@@ -73,8 +73,6 @@ def build_combined_record(weather_record: dict[str, Any], air_record: dict[str, 
         "air_quality_timestamp": clean_text(air_record.get("air_quality_timestamp")),
         "weather_source": clean_text(weather_record.get("source")),
         "air_quality_source": clean_text(air_record.get("source")),
-        "weather_raw_file": clean_text(weather_record.get("raw_file")),
-        "air_quality_raw_file": clean_text(air_record.get("raw_file")),
 
         "pipeline_run_at": datetime.now(timezone.utc).isoformat(),
     }
