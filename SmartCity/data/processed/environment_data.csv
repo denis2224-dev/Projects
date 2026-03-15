@@ -1,0 +1,2 @@
+city,country,lat,lon,weather_main,weather_description,temperature,feels_like,temp_min,temp_max,pressure,humidity,visibility,wind_speed,wind_deg,clouds_pct,aqi,co,no,no2,o3,so2,pm2_5,pm10,nh3,weather_timestamp,air_quality_timestamp,weather_source,air_quality_source,pipeline_run_at
+Chișinău,MD,47.0105,28.8638,Clear,clear sky,14.01,12.09,12.4,14.01,1016.0,24.0,10000.0,7.2,90.0,0.0,3.0,155.5,0.09,1.18,98.14,1.97,23.3,52.67,1.13,2026-03-15 11:44:42+00:00,2026-03-15 11:48:35+00:00,openweather_current,openweather_air_pollution,2026-03-15 11:48:35.053555+00:00
