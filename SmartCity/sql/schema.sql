@@ -1,0 +1,48 @@
+CREATE TABLE IF NOT EXISTS environment_data (
+    id SERIAL PRIMARY KEY,
+    city TEXT,
+    country TEXT,
+    lat DOUBLE PRECISION,
+    lon DOUBLE PRECISION,
+
+    weather_main TEXT,
+    weather_description TEXT,
+
+    temperature DOUBLE PRECISION,
+    feels_like DOUBLE PRECISION,
+    temp_min DOUBLE PRECISION,
+    temp_max DOUBLE PRECISION,
+    pressure DOUBLE PRECISION,
+    humidity DOUBLE PRECISION,
+    visibility DOUBLE PRECISION,
+    wind_speed DOUBLE PRECISION,
+    wind_deg DOUBLE PRECISION,
+    clouds_pct DOUBLE PRECISION,
+
+    aqi DOUBLE PRECISION,
+    co DOUBLE PRECISION,
+    no DOUBLE PRECISION,
+    no2 DOUBLE PRECISION,
+    o3 DOUBLE PRECISION,
+    so2 DOUBLE PRECISION,
+    pm2_5 DOUBLE PRECISION,
+    pm10 DOUBLE PRECISION,
+    nh3 DOUBLE PRECISION,
+
+    weather_timestamp TIMESTAMP,
+    air_quality_timestamp TIMESTAMP,
+    weather_source TEXT,
+    air_quality_source TEXT,
+    weather_raw_file TEXT,
+    air_quality_raw_file TEXT,
+    pipeline_run_at TIMESTAMP,
+
+    hour DOUBLE PRECISION,
+    day_of_week DOUBLE PRECISION,
+    month DOUBLE PRECISION,
+    is_weekend DOUBLE PRECISION,
+    temp_humidity_interaction DOUBLE PRECISION,
+    temp_wind_interaction DOUBLE PRECISION,
+    pm_ratio DOUBLE PRECISION,
+    pollution_load DOUBLE PRECISION
+);
