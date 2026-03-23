@@ -99,13 +99,8 @@ sql/
     analytics_queries.sql
 
 ml/
-    train_model.py
-    predict.py
-
-notebooks/
-    exploration.ipynb
-
-dashboard/
+    linear_egressor.py
+    random_forest.py
 
 tests/
     test_pipeline.py
